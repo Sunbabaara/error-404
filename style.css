@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Open+Sans:wght@300&family=Quicksand:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: #ffffff;
+    border-radius: 8px;
+    font-family: Space Mono;
+   
+}
+nav{
+    height: 40px;
+    padding-left: 20px;
+    width: 100%;
+    float: left;
+}
+
+main{
+    display: flex;
+    height: 85vh;
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+    float: left;
+}
+main .imag{
+   margin: 30px;
+   width: 100%;
+   float: left;
+}
+main .article{
+    padding-right:30px;
+    float: left;
+}
+main .article h2{
+    font-weight: 550;
+    font-size: 45px;
+    line-height: 50px;
+    
+}
+button{
+    background-color: #333333;
+    color: #ffffff;
+    height: 68px;
+width: 216px;
+left: 740px;
+top: 663px;
+border-radius: 0px;
+
+}
+p{
+    
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    
+
+
+
+}
+footer{
+   padding-left: 40%;
+   float: left;
+
+}
+footer p{
+    font-size: 10px;
+}
+@media screen and (max-width: 600px){
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
